@@ -86,6 +86,24 @@ mycroft-msm install https://github.com/Yana999/about-misis-skill
 ```
 start-mycroft.sh debug
 ```
+## Итоговый конфиг
+```
+{
+  "max_allowed_core_version": 21.2,
+  "listener": {
+    "wake_word": "privet-misis"
+  },
+  "hotwords": {
+    "privet-misis": {
+      "module": "precise",
+      "local_model_file": "/home/misha/Projects/privet-misis-200.pb",
+      "sensitivity": 0.15,
+      "trigger_level": 5
+    }
+  },
+  "lang": "ru-ru"
+}
+```
 Полезные ссылки
 https://mycroft-ai.gitbook.io/docs/using-mycroft-ai/get-mycroft/linux
 https://github.com/MycroftAI/lingua-franca
