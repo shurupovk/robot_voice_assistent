@@ -80,7 +80,7 @@ mycroft-config set lang "ru-ru"
 mycroft-msm install https://github.com/Yana999/about-misis-skill
 в папку /opt/mycroft/skills/about-misis-skill.yana999/ 
 ```
-Создать папку ``` lev_model ``` и положить туда файл ``` best_model_state.bin ``` (из телеги)
+Создать папку ``` lev_model ``` и положить туда файл ``` best_model_state.bin ``` (https://drive.google.com/file/d/1Lp4GGmM3td1cs6mzDSyLhEyHAs4SMgOL/view?usp=sharing)
 Для запуска Mycroft-core
 ```
 start-mycroft.sh debug
